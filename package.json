@@ -1,0 +1,36 @@
+{
+  "name": "audio-stream-nodejs-example",
+  "version": "1.0.0",
+  "description": "Node.js examples for Firetell Audio Stream — one-way monitoring and full-duplex AI voice bot",
+  "main": "index.js",
+  "scripts": {
+    "start:monitor": "node examples/one-way-monitor.js",
+    "start:bot": "node examples/full-duplex-bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firetellcom/audio-stream-nodejs-example.git"
+  },
+  "keywords": [
+    "firetell",
+    "websocket",
+    "audio-stream",
+    "voice-bot",
+    "pcm",
+    "real-time",
+    "speech",
+    "voip"
+  ],
+  "author": "developers@firetell.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firetellcom/audio-stream-nodejs-example/issues"
+  },
+  "homepage": "https://github.com/firetellcom/audio-stream-nodejs-example#readme",
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
